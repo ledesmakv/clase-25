@@ -1,0 +1,19 @@
+@keyframes caca-pis {
+    0% {width: 200px;}
+    50% {width: 300px;
+    background-color: #0000ff;
+    /* transform: rotate(90deg) */
+}
+    100% {width: 200px;}
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: #ff0000;
+    animation-name: caca-pis;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /* ease es por defecto, linear permite que el cambio se haga a un mismo tiempo */
+    animation-timing-function: linear;
+}
